@@ -28,6 +28,7 @@ import ExamplesNavbar from "../components/Navbars/ExamplesNavbar";
 import HomeNavbar from "../components/Navbars/HomeNavbar";
 import HomeHeader from "../components/Headers/HomeHeader";
 import Bio from "./index-sections/Bio";
+import Projects from "./index-sections/Projects";
 
 function Index() {
   React.useEffect(() => {
@@ -48,6 +49,7 @@ function Index() {
         <HomeHeader />
         <div className="main">
           <Bio />
+          <Projects />
           <BasicElements />
           <Navbars />
           <Tabs />
