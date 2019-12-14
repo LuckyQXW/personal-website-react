@@ -27,6 +27,7 @@ import Download from "./index-sections/Download.js";
 import ExamplesNavbar from "../components/Navbars/ExamplesNavbar";
 import HomeNavbar from "../components/Navbars/HomeNavbar";
 import HomeHeader from "../components/Headers/HomeHeader";
+import Bio from "./index-sections/Bio";
 
 function Index() {
   React.useEffect(() => {
@@ -46,6 +47,7 @@ function Index() {
       <div className="wrapper">
         <HomeHeader />
         <div className="main">
+          <Bio />
           <BasicElements />
           <Navbars />
           <Tabs />
