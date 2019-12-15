@@ -19,7 +19,7 @@ const ProjectBlock = (props) => {
 
     return (
         <>
-            <div className="col">
+            <div className="col col-sm-12 col-md-6 col-lg-6">
                 <h4>{props.name}</h4>
                 <a href={props.link} target="_blank">
                     <img

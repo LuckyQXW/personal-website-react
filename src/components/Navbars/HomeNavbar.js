@@ -52,14 +52,37 @@ function HomeNavBar() {
 
     return (
         <>
+            {collapseOpen ? (
+                <div
+                    id="bodyClick"
+                    onClick={() => {
+                        document.documentElement.classList.toggle("nav-open");
+                        setCollapseOpen(false);
+                    }}
+                />
+            ) : null}
             <Navbar className={"fixed-top " + navbarColor} color="white" expand="lg">
                 <Container>
-                    <div>
+                    <div className="navbar-translate">
                         <NavbarBrand
-                            href="#"
-                            onClick={e => scrollToTop(e)}>
+                            href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
+                            onClick={e => scrollToTop(e)}
+                        >
                             Home
                         </NavbarBrand>
+                        <button
+                            className="navbar-toggler navbar-toggler"
+                            onClick={() => {
+                                document.documentElement.classList.toggle("nav-open");
+                                setCollapseOpen(!collapseOpen);
+                            }}
+                            aria-expanded={collapseOpen}
+                            type="button"
+                        >
+                            <span className="navbar-toggler-bar top-bar"></span>
+                            <span className="navbar-toggler-bar middle-bar"></span>
+                            <span className="navbar-toggler-bar bottom-bar"></span>
+                        </button>
                     </div>
                     <Collapse
                         className="justify-content-end"
@@ -92,7 +115,8 @@ function HomeNavBar() {
                                     href="https://github.com/LuckyQXW"
                                     target="_blank"
                                 >
-                                    <i className="fab fa-github"/>
+                                    <i className="fab fa-github mr-2"/>
+                                    Github
                                 </NavLink>
                             </NavItem>
                             <NavItem>
@@ -100,7 +124,8 @@ function HomeNavBar() {
                                     href="https://www.linkedin.com/in/wen-qiu/"
                                     target="_blank"
                                 >
-                                    <i className="fab fa-linkedin"/>
+                                    <i className="fab fa-linkedin mr-2"/>
+                                    LinkedIn
                                 </NavLink>
                             </NavItem>
                         </Nav>
