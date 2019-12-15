@@ -2,9 +2,7 @@ import React from "react";
 import {
     Container,
     Row,
-    Col, Button
 } from "reactstrap";
-import {Link} from "react-router-dom";
 import ProjectBlock from "./ProjectBlock";
 import AdaptedToyInventoryImg from "../../assets/img/adapted-toy-inventory.png";
 import LinkedIntListPlaygroundImg from "../../assets/img/linked-list-playground.png";

@@ -1,22 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
     Collapse,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    UncontrolledDropdown,
     NavbarBrand,
     Navbar,
     NavItem,
     NavLink,
     Nav,
     Container,
-    UncontrolledTooltip
 } from "reactstrap";
 import Resume from '../../assets/documents/WENQIU-Resume.pdf'
-import Index from '../../views/Index.js'
 
 function HomeNavBar() {
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -91,7 +84,7 @@ function HomeNavBar() {
                     >
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href={Resume} target="_blank">
+                                <NavLink href={Resume} target="_blank" rel="noopener noreferrer">
                                     Resume
                                 </NavLink>
                             </NavItem>
@@ -106,7 +99,7 @@ function HomeNavBar() {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://medium.com/@wenqiu97" target="_blank">
+                                <NavLink href="https://medium.com/@wenqiu97" target="_blank" rel="noopener noreferrer">
                                     Blog
                                 </NavLink>
                             </NavItem>
@@ -114,6 +107,7 @@ function HomeNavBar() {
                                 <NavLink
                                     href="https://github.com/LuckyQXW"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     <i className="fab fa-github mr-2"/>
                                     Github
@@ -123,6 +117,7 @@ function HomeNavBar() {
                                 <NavLink
                                     href="https://www.linkedin.com/in/wen-qiu/"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                 >
                                     <i className="fab fa-linkedin mr-2"/>
                                     LinkedIn

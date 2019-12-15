@@ -1,18 +1,10 @@
 import React from "react";
 import {
     Button,
-    FormGroup,
-    Container,
     Modal,
     ModalBody,
     Row,
-    Col,
-    UncontrolledTooltip,
-    PopoverBody,
-    PopoverHeader,
-    UncontrolledPopover
 } from "reactstrap";
-import {Link} from "react-router-dom";
 
 const ProjectBlock = (props) => {
     const [modal, setModal] = React.useState(false);
@@ -21,7 +13,7 @@ const ProjectBlock = (props) => {
         <>
             <div className="col col-sm-12 col-md-6 col-lg-6">
                 <h4>{props.name}</h4>
-                <a href={props.link} target="_blank">
+                <a href={props.link} target="_blank" rel="noopener noreferrer">
                     <img
                         alt={props.alt}
                         className="img-raised"
@@ -35,6 +27,7 @@ const ProjectBlock = (props) => {
                         outline
                         href={props.link}
                         target="_blank"
+                        rel="noopener noreferrer"
                         style={{display: props.live ? 'block' : 'none'}}
                     >
                         Website
@@ -53,6 +46,7 @@ const ProjectBlock = (props) => {
                         outline
                         href={props.codeLink}
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         Source Code
                     </Button>

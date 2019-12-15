@@ -14,42 +14,42 @@ import {
 
 const items = [
   {
-    src: "https://carbon-media.accelerator.net/0000000j9py/btUIexKXhePdrxEy73LHoJ;1920x1440.webp",
+    src: "https://carbon-media.accelerator.net/0000000j9py/btUIexKXhePdrxEy73LHoJ;2048x1536.jpeg",
     altText: "Spider-man sketch",
     caption: "Spider-man"
   },
   {
-    src: "https://carbonmade-media.accelerator.net/37544254;1920x1440.webp",
+    src: "https://carbonmade-media.accelerator.net/37544254;2048x1536.png",
     altText: "Arkham Knight sketch",
     caption: "Arkham Knight"
   },
   {
-    src: "https://carbon-media.accelerator.net/0000000j9py/bHQneDmwMBedEE9VVdywh3;1920x1440.webp",
+    src: "https://carbon-media.accelerator.net/0000000j9py/bHQneDmwMBedEE9VVdywh3;2048x1536.png",
     altText: "God of War sketch",
     caption: "God of War"
   },
   {
-    src: "https://carbonmade-media.accelerator.net/37544275;2048x1536/quality(80).webp",
+    src: "https://carbonmade-media.accelerator.net/37544275;2048x1536.png",
     altText: "The Greatest Showman sketch",
     caption: "The Greatest Showman"
   },
   {
-    src: "https://carbonmade-media.accelerator.net/36048055;2048x1536/quality(80).webp",
+    src: "https://carbonmade-media.accelerator.net/36048055;2048x1536.png",
     altText: "Assassin's Creed Rogue sketch",
     caption: "Assassin's Creed: Rogue"
   },
   {
-    src: "https://carbonmade-media.accelerator.net/35681756;2881x2160/quality(80).webp",
+    src: "https://carbonmade-media.accelerator.net/35681756;2881x2160.png",
     altText: "Dishonored 2 sketch",
     caption: "Dishonored 2"
   },
   {
-    src: "https://carbonmade-media.accelerator.net/35681753;1280x960.webp",
+    src: "https://carbonmade-media.accelerator.net/35681753;1280x960.jpeg",
     altText: "Assassin's Creed Black Flag sketch",
     caption: "Assassin's Creed: Black Flag"
   },
   {
-    src: "https://carbonmade-media.accelerator.net/35681752;1024x768.webp",
+    src: "https://carbonmade-media.accelerator.net/35681752;1024x768.jpeg",
     altText: "Watchdogs 2 sketch",
     caption: "Watchdogs 2"
   },
@@ -134,7 +134,7 @@ function CarouselSection() {
             </Col>
           </Row>
           <Row className="justify-content-center mt-4">
-            <p>For more art and design, see <a href="https://wenqiu.carbonmade.com" target="_blank">here</a></p>
+            <p>For more art and design, see <a href="https://wenqiu.carbonmade.com" target="_blank" rel="noopener noreferrer">here</a></p>
           </Row>
         </Container>
       </div>

@@ -28,21 +28,21 @@ function Bio() {
                                     students from underserved backgrounds in engineering, since my freshman year of college. Now
                                     I focus on being a teaching assistant for the intro to programming courses, including CSE 143
                                     Computer Programming II with Java as the programming language, and you can read more about my
-                                    first quarter experience as a TA <a href="https://medium.com/@wenqiu97">here</a>. In the upcoming
+                                    first quarter experience as a TA <a href="https://medium.com/@wenqiu97" target="_blank" rel="noopener noreferrer">here</a>. In the upcoming
                                     quarters I am also going to be a teaching assistant for CSE 163 Intermediate Data Programming
                                     which teaches tools and libraries for data processing in Python.
                                 </p>
                                 <p>
                                     In my free time, I like to do digital sketches for video game characters. It is my go-to way of
                                     experiencing a sense of flow and sharpening my observation skills. You can check out most of my
-                                    artwork and past design pieces in my <a href="https://wenqiu.carbonmade.com/">digital art portfolio</a>.
+                                    artwork and past design pieces in my <a href="https://wenqiu.carbonmade.com/" target="_blank" rel="noopener noreferrer">digital art portfolio</a>.
                                 </p>
                             </div>
                         </Col>
                         <Col md="3">
                             <div>
                                 <img
-                                    alt="profile picture"
+                                    alt="profile"
                                     className="rounded-circle"
                                     src={require("assets/img/profile-pic.jpg")}
                                 />
