@@ -80,7 +80,7 @@ function CarouselSection() {
   };
   return (
     <>
-      <div className="section" id="artwork">
+      <div className="section" id="carousel">
         <Container>
           <h2 className="title">Digital Art</h2>
           <Row className="justify-content-center">
@@ -128,15 +128,10 @@ function CarouselSection() {
                   }}
                   role="button"
                 >
-                  <i className="now-ui-icons arrows-1_minimal-right text-black" />
+                  <i className="now-ui-icons arrows-1_minimal-right text-black"></i>
                 </a>
               </Carousel>
             </Col>
-          </Row>
-          <Row className="justify-content-center mt-3">
-            <p>
-              For more art and design, see <a href={"https://wenqiu.carbonmade.com/"} target="_blank">here</a>
-            </p>
           </Row>
         </Container>
       </div>
