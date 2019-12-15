@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38af6fec1a2aed23780c3bc73a501215",
+    "revision": "857152a4d8da9b7fea54a4b2114e8000",
     "url": "/index.html"
   },
   {
-    "revision": "fa5c360e526fda46df35",
-    "url": "/static/css/main.e564f8a3.chunk.css"
+    "revision": "6b432bb179484b0fd98e",
+    "url": "/static/css/main.e1bfe6be.chunk.css"
   },
   {
-    "revision": "1a26bd1530192da0807b",
-    "url": "/static/js/2.98b510e3.chunk.js"
+    "revision": "2d42c3a6a2e552c52cba",
+    "url": "/static/js/2.a34fd6fb.chunk.js"
   },
   {
-    "revision": "fa5c360e526fda46df35",
-    "url": "/static/js/main.fe8e7aef.chunk.js"
+    "revision": "6b432bb179484b0fd98e",
+    "url": "/static/js/main.a2d512e8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -28,56 +28,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/adapted-toy-inventory.76839d22.png"
   },
   {
-    "revision": "e643a6cf77b4635dda856f10fa9b7db4",
-    "url": "/static/media/bg11.e643a6cf.jpg"
-  },
-  {
-    "revision": "607a4a36d058e55773625ba23518e291",
-    "url": "/static/media/bg7.607a4a36.jpg"
-  },
-  {
-    "revision": "f7cb2d390498c2969b2b1050f3e024ce",
-    "url": "/static/media/creative-tim-white-slim2.f7cb2d39.png"
-  },
-  {
     "revision": "1d4e7abca0bd3db3c39f435efeecff57",
     "url": "/static/media/css-lint.1d4e7abc.png"
-  },
-  {
-    "revision": "ffcc99c42164b65da7af6307b66379cf",
-    "url": "/static/media/header.ffcc99c4.jpg"
-  },
-  {
-    "revision": "a76c7b4ce725bb07b1572699a5a78c62",
-    "url": "/static/media/hero-image-1.a76c7b4c.png"
-  },
-  {
-    "revision": "9616730d099782a3ea6c12c70aa181af",
-    "url": "/static/media/hero-image-2.9616730d.png"
-  },
-  {
-    "revision": "02cd0e2d2b27926d1ed5c31a00dd26fa",
-    "url": "/static/media/hero-image-3.02cd0e2d.png"
   },
   {
     "revision": "f71bfc5fd75fdb0a2350bb4be06c7db2",
     "url": "/static/media/homebg.f71bfc5f.jpg"
   },
   {
-    "revision": "300494e9857b8d865ead79a62b09dd88",
-    "url": "/static/media/invision-white-slim.300494e9.png"
-  },
-  {
-    "revision": "138381e51c42397348a82b448b5fb61b",
-    "url": "/static/media/julie.138381e5.jpg"
-  },
-  {
     "revision": "3881d619aa3ffcd16f920c177e175357",
     "url": "/static/media/kickstarter.3881d619.png"
-  },
-  {
-    "revision": "f8fba45478e18757e67c37b6644a3cec",
-    "url": "/static/media/landing.f8fba454.jpg"
   },
   {
     "revision": "58ae5b4586b4bfc290a2efdfbdb90530",
@@ -102,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5a2efb31cf5dd73437600a28d66cc974",
     "url": "/static/media/profile-pic.5a2efb31.jpg"
-  },
-  {
-    "revision": "225653f9f4dacef3e81bcc52f5ef547d",
-    "url": "/static/media/profile.225653f9.jpg"
   },
   {
     "revision": "697bf81cd531e960a892e3e4c525560e",
