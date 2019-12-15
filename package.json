@@ -2,7 +2,7 @@
   "name": "wenqiuwebsite",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://wenqiu.me/personal-website-react",
+  "homepage": "https://wenqiu.me",
   "dependencies": {
     "assets": "^3.0.1",
     "gh-pages": "^2.1.1",
