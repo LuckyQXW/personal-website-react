@@ -49,6 +49,7 @@ function HomeNavBar() {
             behavior: 'smooth',
         });
     }
+
     return (
         <>
             <Navbar className={"fixed-top " + navbarColor} color="white" expand="lg">
@@ -72,7 +73,7 @@ function HomeNavBar() {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/LuckyQXW" target="_blank">
+                                <NavLink href="#projects">
                                     Projects
                                 </NavLink>
                             </NavItem>

@@ -1,17 +1,26 @@
 import React from "react";
 import {
+    Button,
+    FormGroup,
     Container,
+    Modal,
+    ModalBody,
     Row,
-    Col, Button
+    Col,
+    UncontrolledTooltip,
+    PopoverBody,
+    PopoverHeader,
+    UncontrolledPopover
 } from "reactstrap";
 import {Link} from "react-router-dom";
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
-import HoverPage from "./HoveredImage";
 
 const ProjectBlock = (props) => {
+    const [modal, setModal] = React.useState(false);
+
     return (
         <>
             <div className="col">
+                <h4>{props.name}</h4>
                 <a href={props.link} target="_blank">
                     <img
                         alt={props.alt}
@@ -19,7 +28,7 @@ const ProjectBlock = (props) => {
                         src={props.imageLink}
                     />
                 </a>
-                <Row className="justify-content-around mt-3 mb-4">
+                <Row className="justify-content-around mt-3 mb-2">
                     <Button
                         className="btn-round"
                         color="default"
@@ -28,7 +37,15 @@ const ProjectBlock = (props) => {
                         target="_blank"
                         style={{display: props.live ? 'block' : 'none'}}
                     >
-                        View Website
+                        Website
+                    </Button>
+                    <Button
+                        className="btn-round"
+                        color="default"
+                        outline
+                        onClick={() => setModal(true)}
+                    >
+                        Description
                     </Button>
                     <Button
                         className="btn-round"
@@ -37,8 +54,25 @@ const ProjectBlock = (props) => {
                         href={props.codeLink}
                         target="_blank"
                     >
-                        View Source Code
+                        Source Code
                     </Button>
+                    <Modal isOpen={modal} toggle={() => setModal(false)} style={{top: "30%"}}>
+                        <div className="modal-header justify-content-center">
+                            <button
+                                className="close"
+                                type="button"
+                                onClick={() => setModal(false)}
+                            >
+                                <i className="now-ui-icons ui-1_simple-remove"/>
+                            </button>
+                            <h4 className="title">{props.name}</h4>
+                        </div>
+                        <ModalBody>
+                            <p>
+                                {props.description}
+                            </p>
+                        </ModalBody>
+                    </Modal>
                 </Row>
             </div>
         </>

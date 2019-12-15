@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3efbff95-ddb5-48fa-9d84-03b44fb130c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/index-sections/HoveredImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/index-sections/ProjectBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/index-sections/Projects.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/Bio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/now-ui-kit.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/now-ui-kit.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbars/HomeNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbars/HomeNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index-sections/HoveredImage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index-sections/ProjectBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/ProjectBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/Projects.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +60,7 @@
       <updated>1576304614093</updated>
       <workItem from="1576304616818" duration="6560000" />
       <workItem from="1576311830160" duration="8680000" />
+      <workItem from="1576366180026" duration="3509000" />
     </task>
     <servers />
   </component>
@@ -71,7 +72,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
