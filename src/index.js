@@ -26,10 +26,6 @@ import "assets/demo/demo.css";
 import "assets/demo/nucleo-icons-page-styles.css";
 // pages for this kit
 import Index from "views/Index.js";
-import NucleoIcons from "views/NucleoIcons.js";
-import LoginPage from "views/examples/LoginPage.js";
-import LandingPage from "views/examples/LandingPage.js";
-import ProfilePage from "views/examples/ProfilePage.js";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -37,7 +33,6 @@ ReactDOM.render(
       <Switch>
         <Route path="/personal-website-react" render={props => <Index {...props} />} />
         <Redirect to="/personal-website-react" />
-        <Redirect from="/" to="/personal-website-react" />
       </Switch>
     </Switch>
   </BrowserRouter>,
