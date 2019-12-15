@@ -133,6 +133,9 @@ function CarouselSection() {
               </Carousel>
             </Col>
           </Row>
+          <Row className="justify-content-center mt-4">
+            <p>For more art and design, see <a href="https://wenqiu.carbonmade.com" target="_blank">here</a></p>
+          </Row>
         </Container>
       </div>
     </>
