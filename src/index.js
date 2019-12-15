@@ -28,13 +28,6 @@ import "assets/demo/nucleo-icons-page-styles.css";
 import Index from "views/Index.js";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Switch>
-          <Route path="/personal-website-react" render={props => <Index {...props} />} />
-          <Redirect to="/personal-website-react" />
-      </Switch>
-    </Switch>
-  </BrowserRouter>,
+  <Index />,
   document.getElementById("root")
 );
