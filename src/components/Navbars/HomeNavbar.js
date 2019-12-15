@@ -65,7 +65,7 @@ function HomeNavBar() {
                 <Container>
                     <div className="navbar-translate">
                         <NavbarBrand
-                            href="https://demos.creative-tim.com/now-ui-kit-react/index?ref=nukr-examples-navbar"
+                            href="#home"
                             onClick={e => scrollToTop(e)}
                         >
                             Home
@@ -101,7 +101,7 @@ function HomeNavBar() {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://wenqiu.carbonmade.com/" target="_blank">
+                                <NavLink href="#artwork">
                                     Artwork
                                 </NavLink>
                             </NavItem>
