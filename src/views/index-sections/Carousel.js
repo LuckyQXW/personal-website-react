@@ -14,20 +14,45 @@ import {
 
 const items = [
   {
-    src: require("assets/img/bg1.jpg"),
-    altText: "Nature, United States",
-    caption: "Nature, United States"
+    src: "https://carbon-media.accelerator.net/0000000j9py/btUIexKXhePdrxEy73LHoJ;1920x1440.webp",
+    altText: "Spider-man sketch",
+    caption: "Spider-man"
   },
   {
-    src: require("assets/img/bg3.jpg"),
-    altText: "Somewhere Beyond, United States",
-    caption: "Somewhere Beyond, United States"
+    src: "https://carbonmade-media.accelerator.net/37544254;1920x1440.webp",
+    altText: "Arkham Knight sketch",
+    caption: "Arkham Knight"
   },
   {
-    src: require("assets/img/bg4.jpg"),
-    altText: "Yellowstone National Park, United States",
-    caption: "Yellowstone National Park, United States"
-  }
+    src: "https://carbon-media.accelerator.net/0000000j9py/bHQneDmwMBedEE9VVdywh3;1920x1440.webp",
+    altText: "God of War sketch",
+    caption: "God of War"
+  },
+  {
+    src: "https://carbonmade-media.accelerator.net/37544275;2048x1536/quality(80).webp",
+    altText: "The Greatest Showman sketch",
+    caption: "The Greatest Showman"
+  },
+  {
+    src: "https://carbonmade-media.accelerator.net/36048055;2048x1536/quality(80).webp",
+    altText: "Assassin's Creed Rogue sketch",
+    caption: "Assassin's Creed: Rogue"
+  },
+  {
+    src: "https://carbonmade-media.accelerator.net/35681756;2881x2160/quality(80).webp",
+    altText: "Dishonored 2 sketch",
+    caption: "Dishonored 2"
+  },
+  {
+    src: "https://carbonmade-media.accelerator.net/35681753;1280x960.webp",
+    altText: "Assassin's Creed Black Flag sketch",
+    caption: "Assassin's Creed: Black Flag"
+  },
+  {
+    src: "https://carbonmade-media.accelerator.net/35681752;1024x768.webp",
+    altText: "Watchdogs 2 sketch",
+    caption: "Watchdogs 2"
+  },
 ];
 
 function CarouselSection() {
@@ -57,9 +82,7 @@ function CarouselSection() {
     <>
       <div className="section" id="carousel">
         <Container>
-          <div className="title">
-            <h4>Carousel</h4>
-          </div>
+          <h2 className="title">Digital Art</h2>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
               <Carousel
@@ -80,9 +103,6 @@ function CarouselSection() {
                       key={item.src}
                     >
                       <img src={item.src} alt={item.altText} />
-                      <div className="carousel-caption d-none d-md-block">
-                        <h5>{item.caption}</h5>
-                      </div>
                     </CarouselItem>
                   );
                 })}
@@ -96,7 +116,7 @@ function CarouselSection() {
                   }}
                   role="button"
                 >
-                  <i className="now-ui-icons arrows-1_minimal-left"></i>
+                  <i className="now-ui-icons arrows-1_minimal-left text-black"></i>
                 </a>
                 <a
                   className="carousel-control-next"
@@ -108,7 +128,7 @@ function CarouselSection() {
                   }}
                   role="button"
                 >
-                  <i className="now-ui-icons arrows-1_minimal-right"></i>
+                  <i className="now-ui-icons arrows-1_minimal-right text-black"></i>
                 </a>
               </Carousel>
             </Col>

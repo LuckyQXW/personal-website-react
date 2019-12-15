@@ -49,7 +49,7 @@ function BasicElements() {
   });
   return (
     <>
-      <div className="section section-basic" id="basic-elements">
+      <div className="section section-basic" id="basic-elements" style={{display: "none"}}>
         <Container>
           <h3 className="title">Basic Elements</h3>
           <h4>Buttons</h4>

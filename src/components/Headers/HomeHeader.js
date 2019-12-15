@@ -6,13 +6,12 @@ import { Container } from "reactstrap";
 // core components
 
 function HomeHeader() {
-    let pageHeader = React.createRef();
-
+    let parallaxComponent = React.createRef();
     React.useEffect(() => {
         if (window.innerWidth > 991) {
             const updateScroll = () => {
                 let windowScrollTop = window.pageYOffset / 3;
-                pageHeader.current.style.transform =
+                parallaxComponent.current.style.transform =
                     "translate3d(0," + windowScrollTop + "px,0)";
             };
             window.addEventListener("scroll", updateScroll);
@@ -30,12 +29,12 @@ function HomeHeader() {
                     style={{
                         backgroundImage: "url(" + require("assets/img/homebg.jpg") + ")"
                     }}
-                    ref={pageHeader}
+                    ref={parallaxComponent}
                 />
                 <Container>
                     <div className="content-center brand" style={{top: '50%'}}>
                         <img
-                            alt="..."
+                            alt="Wen's logo"
                             className="n-logo"
                             src={require("assets/img/wq-logo.png")}
                         />

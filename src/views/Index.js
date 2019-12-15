@@ -50,19 +50,8 @@ function Index() {
         <div className="main">
           <Bio />
           <Projects />
-          <BasicElements />
-          <Navbars />
-          <Tabs />
-          <Pagination />
-          <Notifications />
-          <Typography />
-          <Javascript />
           <Carousel />
-          <NucleoIcons />
-          <CompleteExamples />
-          <SignUp />
-          <Examples />
-          <Download />
+          <BasicElements />
         </div>
         <DarkFooter />
       </div>
