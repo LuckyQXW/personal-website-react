@@ -80,7 +80,7 @@ function CarouselSection() {
   };
   return (
     <>
-      <div className="section" id="carousel">
+      <div className="section" id="artwork">
         <Container>
           <h2 className="title">Digital Art</h2>
           <Row className="justify-content-center">

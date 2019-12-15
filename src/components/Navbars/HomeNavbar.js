@@ -101,7 +101,7 @@ function HomeNavBar() {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://wenqiu.carbonmade.com/" target="_blank">
+                                <NavLink href="#artwork">
                                     Artwork
                                 </NavLink>
                             </NavItem>

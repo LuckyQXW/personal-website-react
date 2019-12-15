@@ -2,8 +2,10 @@
   "name": "now-ui-kit-react",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://luckyqxw.github.io/personal-website-react",
   "dependencies": {
     "assets": "^3.0.1",
+    "gh-pages": "^2.1.1",
     "moment": "2.24.0",
     "node-sass": "4.12.0",
     "nouislider": "14.0.2",
@@ -17,6 +19,8 @@
     "reactstrap": "8.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
