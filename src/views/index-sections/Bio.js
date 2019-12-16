@@ -17,25 +17,28 @@ function Bio() {
                             <div>
                                 <p>
                                     Currently a junior studying Computer Science at the University of Washington-Seattle, I enjoy
-                                    building things and have experienced involved in a wide range of projects including robotics,
+                                    building things and have involved in a wide range of projects including robotics,
                                     game development in Unity, mobile interface design and iOS app development, web development,
                                     and data analysis. I like exploring the intersection of design and engineering, and human-computer
                                     interaction is an area that always fascinates me.
                                 </p>
                                 <p>
-                                    Besides coding, I am also passionate about CS education and has been involved in math tutoring
-                                    for the University of Washington STARS Program, a engineering enrichment program designed for
-                                    students from underserved backgrounds in engineering, since my freshman year of college. Now
+                                    Besides coding, I am also passionate about CS education and have been a math tutor since
+                                    my freshman year of college for the University of Washington STARS Program, a engineering
+                                    enrichment program designed for students from underserved backgrounds in engineering. Now
                                     I focus on being a teaching assistant for the intro to programming courses, including CSE 143
-                                    Computer Programming II with Java as the programming language, and you can read more about my
-                                    first quarter experience as a TA <a href="https://medium.com/@wenqiu97" target="_blank" rel="noopener noreferrer">here</a>. In the upcoming
+                                    Computer Programming II with Java as the programming language. You are welcome to read more about my
+                                    first quarter experience as a
+                                    TA <a href="https://medium.com/@wenqiu97" target="_blank" rel="noopener noreferrer">here</a>.
+                                    In the upcoming
                                     quarters I am also going to be a teaching assistant for CSE 163 Intermediate Data Programming
                                     which teaches tools and libraries for data processing in Python.
                                 </p>
                                 <p>
                                     In my free time, I like to do digital sketches for video game characters. It is my go-to way of
                                     experiencing a sense of flow and sharpening my observation skills. You can check out most of my
-                                    artwork and past design pieces in my <a href="https://wenqiu.carbonmade.com/" target="_blank" rel="noopener noreferrer">digital art portfolio</a>.
+                                    artwork and past design pieces in
+                                    my <a href="https://wenqiu.carbonmade.com/" target="_blank" rel="noopener noreferrer">digital art portfolio</a>.
                                 </p>
                             </div>
                         </Col>
