@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "520a97f8e0d25988e3857f40d9d35bc9",
+    "revision": "7ba2a01268613632a5dd4513e83364c0",
     "url": "/index.html"
   },
   {
-    "revision": "fa8382583b56d464b515",
-    "url": "/static/css/main.e1bfe6be.chunk.css"
+    "revision": "ff82cf8785167bbadad7",
+    "url": "/static/css/main.311569f6.chunk.css"
   },
   {
-    "revision": "2d42c3a6a2e552c52cba",
-    "url": "/static/js/2.a34fd6fb.chunk.js"
+    "revision": "672f1c1c5c30cb7748bb",
+    "url": "/static/js/2.b47cb531.chunk.js"
   },
   {
-    "revision": "fa8382583b56d464b515",
-    "url": "/static/js/main.e048fabf.chunk.js"
+    "revision": "ff82cf8785167bbadad7",
+    "url": "/static/js/main.5b6e8298.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "76839d22592cd333e14819fc2cb7c0aa",
     "url": "/static/media/adapted-toy-inventory.76839d22.png"
+  },
+  {
+    "revision": "cadc4ab7c90b3d3a6650e01600a28af4",
+    "url": "/static/media/campus-map.cadc4ab7.png"
   },
   {
     "revision": "1d4e7abca0bd3db3c39f435efeecff57",
