@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3efbff95-ddb5-48fa-9d84-03b44fb130c3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/Carousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/ProjectBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/ProjectBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/apple-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <workItem from="1576366180026" duration="8098000" />
       <workItem from="1576394598531" duration="892000" />
       <workItem from="1576435051800" duration="7082000" />
-      <workItem from="1577570337021" duration="1516000" />
+      <workItem from="1577570337021" duration="2993000" />
     </task>
     <servers />
   </component>
