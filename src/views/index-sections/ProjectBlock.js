@@ -47,6 +47,7 @@ const ProjectBlock = (props) => {
                         href={props.codeLink}
                         target="_blank"
                         rel="noopener noreferrer"
+                        style={{display: props.code ? 'block' : 'none'}}
                     >
                         Source Code
                     </Button>

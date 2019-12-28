@@ -14,6 +14,11 @@ import {
 
 const items = [
   {
+    src: "https://carbon-media.accelerator.net/0000000j9py/73EFRjBj1WqcoLVIWNhXhy;1920x1440.jpeg",
+    altText: "The Last of US Part II sketch",
+    caption: "The Last of US Part II"
+  },
+  {
     src: "https://carbon-media.accelerator.net/0000000j9py/btUIexKXhePdrxEy73LHoJ;2048x1536.jpeg",
     altText: "Spider-man sketch",
     caption: "Spider-man"
