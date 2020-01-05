@@ -10,6 +10,7 @@ import HomeNavbar from "../components/Navbars/HomeNavbar";
 import HomeHeader from "../components/Headers/HomeHeader";
 import Bio from "./index-sections/Bio";
 import Projects from "./index-sections/Projects";
+import Tabs from "./index-sections/Tabs";
 
 function Index() {
   React.useEffect(() => {
@@ -31,6 +32,7 @@ function Index() {
         <div className="main">
           <Bio />
           <Projects />
+          <Tabs />
           <Carousel />
           <BasicElements />
         </div>

@@ -8,7 +8,7 @@ import {
 function Bio() {
     return (
         <>
-            <div className="section">
+            <div className="section section-tabs">
                 <Container>
                     <h2 className="title">About Me</h2>
                     <Row className="">

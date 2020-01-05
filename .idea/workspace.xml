@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3efbff95-ddb5-48fa-9d84-03b44fb130c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/views/index-sections/Tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/index-sections/TeachingTabContent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index-sections/Bio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index-sections/Bio.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +22,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/index-sections" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/index-sections" />
+      <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/src/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -58,6 +64,8 @@
       <workItem from="1576394598531" duration="892000" />
       <workItem from="1576435051800" duration="7082000" />
       <workItem from="1577570337021" duration="3654000" />
+      <workItem from="1577681371694" duration="162000" />
+      <workItem from="1578259442078" duration="5357000" />
     </task>
     <servers />
   </component>
