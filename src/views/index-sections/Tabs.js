@@ -64,7 +64,7 @@ function Tabs() {
   const [iconPills, setIconPills] = React.useState("CSE 163 TA");
   return (
     <>
-      <div className="section section-tabs">
+      <div className="section section-tabs" id="teaching">
         <Container>
           <h2 className="title">Teaching</h2>
             <Card>

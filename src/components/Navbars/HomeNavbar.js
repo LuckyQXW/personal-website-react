@@ -72,9 +72,9 @@ function HomeNavBar() {
                             aria-expanded={collapseOpen}
                             type="button"
                         >
-                            <span className="navbar-toggler-bar top-bar"></span>
-                            <span className="navbar-toggler-bar middle-bar"></span>
-                            <span className="navbar-toggler-bar bottom-bar"></span>
+                            <span className="navbar-toggler-bar top-bar" />
+                            <span className="navbar-toggler-bar middle-bar" />
+                            <span className="navbar-toggler-bar bottom-bar" />
                         </button>
                     </div>
                     <Collapse
@@ -84,13 +84,18 @@ function HomeNavBar() {
                     >
                         <Nav navbar>
                             <NavItem>
-                                <NavLink href={Resume} target="_blank" rel="noopener noreferrer">
-                                    Resume
+                                <NavLink href="#bio">
+                                    About Me
                                 </NavLink>
                             </NavItem>
                             <NavItem>
                                 <NavLink href="#projects">
                                     Projects
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href="#teaching">
+                                    Teaching
                                 </NavLink>
                             </NavItem>
                             <NavItem>
@@ -101,6 +106,11 @@ function HomeNavBar() {
                             <NavItem>
                                 <NavLink href="https://medium.com/@wenqiu97" target="_blank" rel="noopener noreferrer">
                                     Blog
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink href={Resume} target="_blank" rel="noopener noreferrer">
+                                    Resume
                                 </NavLink>
                             </NavItem>
                             <NavItem>
