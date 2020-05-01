@@ -11,6 +11,7 @@ import WordMasterImg from  "../../assets/img/word-master.png";
 import CSSLintImg from "../../assets/img/css-lint.png";
 import KickstarterImg from "../../assets/img/kickstarter.png";
 import SynthesisImg from "../../assets/img/synthesis.png";
+import Website163Img from "../../assets/img/website-163.png"
 
 function Projects() {
     return (
@@ -19,6 +20,17 @@ function Projects() {
                 <Container>
                     <h2 className="title">Projects</h2>
                     <Row>
+                        <ProjectBlock
+                            name={"CSE 163 Course Website"}
+                            link="https://courses.cs.washington.edu/courses/cse163/20sp/index.html"
+                            imageLink={Website163Img}
+                            alt="Thumbnail for CSE 163 Website"
+                            live={true}
+                            code={false}
+                            description={"Course website for CSE 163: Intermediate Data Programming. Redesigned the " +
+                            "interface to be more usable and accessible. Utilizes Jinja template engine and homebrew " +
+                            "static site generator for built. Incorporates Bootstrap framework to be mobile reponsive. "}
+                        />
                         <ProjectBlock
                             name={"Campus Map"}
                             imageLink={CampusMapImg}
