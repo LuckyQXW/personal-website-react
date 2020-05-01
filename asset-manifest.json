@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.311569f6.chunk.css",
-    "main.js": "/static/js/main.bf8097f3.chunk.js",
-    "main.js.map": "/static/js/main.bf8097f3.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.95475e02.chunk.js": "/static/js/2.95475e02.chunk.js",
-    "static/js/2.95475e02.chunk.js.map": "/static/js/2.95475e02.chunk.js.map",
+    "main.css": "/static/css/main.33041f83.chunk.css",
+    "main.js": "/static/js/main.7f6aa5b9.chunk.js",
+    "main.js.map": "/static/js/main.7f6aa5b9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1cf40c30.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1cf40c30.js.map",
+    "static/js/2.ee68fb24.chunk.js": "/static/js/2.ee68fb24.chunk.js",
+    "static/js/2.ee68fb24.chunk.js.map": "/static/js/2.ee68fb24.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.1fd3d30f2f8e6ad38c61a16da252409b.js": "/precache-manifest.1fd3d30f2f8e6ad38c61a16da252409b.js",
+    "precache-manifest.1351d2e337170657fd3e7f1b6f1cdd44.js": "/precache-manifest.1351d2e337170657fd3e7f1b6f1cdd44.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.311569f6.chunk.css.map": "/static/css/main.311569f6.chunk.css.map",
+    "static/css/main.33041f83.chunk.css.map": "/static/css/main.33041f83.chunk.css.map",
+    "static/js/2.ee68fb24.chunk.js.LICENSE.txt": "/static/js/2.ee68fb24.chunk.js.LICENSE.txt",
     "static/media/WENQIU-Resume.pdf": "/static/media/WENQIU-Resume.86c711e1.pdf",
     "static/media/adapted-toy-inventory.png": "/static/media/adapted-toy-inventory.76839d22.png",
     "static/media/campus-map.png": "/static/media/campus-map.cadc4ab7.png",
@@ -21,7 +22,14 @@
     "static/media/now-ui-kit.scss": "/static/media/nucleo-outline.8ebec31f.woff2",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.5a2efb31.jpg",
     "static/media/synthesis.png": "/static/media/synthesis.697bf81c.png",
+    "static/media/website-163.png": "/static/media/website-163.d29f4b7c.png",
     "static/media/word-master.png": "/static/media/word-master.7663dc65.png",
     "static/media/wq-logo.png": "/static/media/wq-logo.5e882a69.png"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1cf40c30.js",
+    "static/js/2.ee68fb24.chunk.js",
+    "static/css/main.33041f83.chunk.css",
+    "static/js/main.7f6aa5b9.chunk.js"
+  ]
 }
