@@ -23,10 +23,12 @@ const items = [
     description: "Intermediate data programming. Topics include writing programs that manipulate different types of " +
         "data; leveraging the growing ecosystem of tools and libraries for data programming; writing programs that " +
         "are both efficient and elegant; and writing medium-scale programs (100 to 200 lines).",
-    responsibilities: "Plan and lead an one-hour section every week with a partner covering practice problems on " +
-        "lecture topics. Review and give feedback for pre-lecture readings. " +
+    responsibilities: "Redesign the course website for better usability and accessibility. " +
+    "As the grading head TA, manage grading duties, assign grading tasks to TAs and ensure feedback quality and consistency. " +
+    "Plan and lead an one-hour section every week with a partner covering practice problems on lecture topics." +
+        "Edit, review and give feedback for pre-lecture readings. " +
         "Help students with course concept and final project on data analysis during office hours.",
-    duration: "Winter 2020 (current)"
+    duration: "Winter 2020- Spring 2020 (current)"
   },
   {
     id: "CSE 143 TA",

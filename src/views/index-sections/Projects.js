@@ -29,7 +29,7 @@ function Projects() {
                             code={false}
                             description={"Course website for CSE 163: Intermediate Data Programming. Redesigned the " +
                             "interface to be more usable and accessible. Utilizes Jinja template engine and homebrew " +
-                            "static site generator for built. Incorporates Bootstrap framework to be mobile reponsive. "}
+                            "static site generator for build. Incorporates Bootstrap framework to be mobile responsive. "}
                         />
                         <ProjectBlock
                             name={"Campus Map"}
@@ -41,6 +41,8 @@ function Projects() {
                             "buildings in the University of Washington using Dijkstra's algorithm. Backend incorporates " +
                             "a custom Graph data structure and a Spark Java server."}
                         />
+                      </Row>
+                      <Row>
                         <ProjectBlock
                             name={"LinkedIntList Playground"}
                             link="https://courses.cs.washington.edu/courses/cse154/cp/19sp/cp2/smash-ball/index.html"
