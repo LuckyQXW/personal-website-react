@@ -9,7 +9,7 @@ import {
     Nav,
     Container,
 } from "reactstrap";
-import Resume from '../../assets/documents/QIU_WEN.pdf'
+import Resume from '../../assets/documents/WENQIU_Resume.pdf'
 
 function HomeNavBar() {
     const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
