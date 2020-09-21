@@ -19,20 +19,18 @@ import TeachingTabContent from "./TeachingTabContent";
 const items = [
   {
     id: "CSE 163 TA",
-    icon: "tech_laptop",
     description: "Intermediate data programming. Topics include writing programs that manipulate different types of " +
         "data; leveraging the growing ecosystem of tools and libraries for data programming; writing programs that " +
         "are both efficient and elegant; and writing medium-scale programs (100 to 200 lines).",
-    responsibilities: "Redesign the course website for better usability and accessibility. " +
-    "As the grading head TA, manage grading duties, assign grading tasks to TAs and ensure feedback quality and consistency. " +
-    "Plan and lead an one-hour section every week with a partner covering practice problems on lecture topics." +
-        "Edit, review and give feedback for pre-lecture readings. " +
-        "Help students with course concept and final project on data analysis during office hours.",
-    duration: "Winter 2020- Spring 2020 (current)"
+    responsibilities: "Redesigned the course website for better usability and accessibility. " +
+    "As the grading head TA, managed grading duties, assigned grading tasks to TAs and ensured feedback quality and consistency. " +
+    "Planned and led an one-hour section every week with a partner covering practice problems on lecture topics. " +
+        "Edited, reviewed and gave feedback for pre-lecture readings. " +
+        "Helped students with course concept and final project on data analysis during office hours.",
+    duration: "Winter 2020- Summer 2020"
   },
   {
     id: "CSE 143 TA",
-    icon: "tech_laptop",
     description: "Second course in the programming intro series at UW. Involves concepts of data abstraction and " +
         "encapsulation including stacks, queues, linked lists, binary trees, recursion, instruction to complexity " +
         "and use of predefined collection classes.",
@@ -43,7 +41,6 @@ const items = [
   },
   {
     id: "CSE 190Z TA",
-    icon: "education_agenda-bookmark",
     description: "Companion workshop for CSE 143 offered to second-year students in the University of Washington STARS " +
         "Program. Aims to complement course material as well as enhance problem-solving skills in Computer Science.",
     responsibilities: "Helped plan weekly workshops and led one workshop on object inheritance in Java. Had one-on-one " +
@@ -53,7 +50,6 @@ const items = [
   },
   {
     id: "STARS Math Mentor",
-    icon: "education_hat",
     description: "Companion workshop for first-year students in the University of Washington STARS Program. Covers " +
         "various topics in pre-calculus. Helps students build a strong mathematical foundation for college-level " +
         "calculus and enhances their math problem-solving skills.",
@@ -62,11 +58,11 @@ const items = [
     duration: "Fall 2018"
   },
   ];
-function Tabs() {
+function TeachingTabs() {
   const [iconPills, setIconPills] = React.useState("CSE 163 TA");
   return (
     <>
-      <div className="section section-tabs" id="teaching">
+      <div className="section" id="teaching">
         <Container>
           <h2 className="title">Teaching</h2>
             <Card>
@@ -85,7 +81,6 @@ function Tabs() {
                                     setIconPills(item.id);
                                   }}
                               >
-                                <i className={"now-ui-icons " + item.icon}/>
                                 {item.id}
                               </NavLink>
                             </NavItem>
@@ -125,4 +120,4 @@ function Tabs() {
   );
 }
 
-export default Tabs;
+export default TeachingTabs;

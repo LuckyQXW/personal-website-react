@@ -10,7 +10,8 @@ import HomeNavbar from "../components/Navbars/HomeNavbar";
 import HomeHeader from "../components/Headers/HomeHeader";
 import Bio from "./index-sections/Bio";
 import Projects from "./index-sections/Projects";
-import Tabs from "./index-sections/Tabs";
+import Experience from "./index-sections/Experience";
+import TeachingTabs from "./index-sections/TeachingTabs";
 
 function Index() {
   React.useEffect(() => {
@@ -32,7 +33,8 @@ function Index() {
         <div className="main">
           <Bio />
           <Projects />
-          <Tabs />
+          <Experience />
+          <TeachingTabs />
           <Carousel />
           <BasicElements />
         </div>

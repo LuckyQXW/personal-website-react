@@ -94,6 +94,11 @@ function HomeNavBar() {
                                 </NavLink>
                             </NavItem>
                             <NavItem>
+                                <NavLink href="#experience">
+                                    Experience
+                                </NavLink>
+                            </NavItem>
+                            <NavItem>
                                 <NavLink href="#teaching">
                                     Teaching
                                 </NavLink>

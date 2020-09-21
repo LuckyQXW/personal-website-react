@@ -27,7 +27,7 @@ function HomeHeader() {
                 <div
                     className="page-header-image"
                     style={{
-                        backgroundImage: "url(" + require("assets/img/homebg.jpg") + ")"
+                        backgroundImage: "url(" + require("assets/img/homebg-min.jpg") + ")"
                     }}
                     ref={parallaxComponent}
                 />

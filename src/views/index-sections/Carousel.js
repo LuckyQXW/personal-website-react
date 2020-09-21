@@ -14,9 +14,14 @@ import {
 
 const items = [
   {
+    src: "https://carbon-media.accelerator.net/0000000j9py/ckMkvZ7pNbncg8yeoiJNyi;2048x1536.png",
+    altText: "The Last of US Part II sketch- Joe",
+    caption: "The Last of US Part II- Joe"
+  }, 
+  {
     src: "https://carbon-media.accelerator.net/0000000j9py/73EFRjBj1WqcoLVIWNhXhy;1920x1440.jpeg",
-    altText: "The Last of US Part II sketch",
-    caption: "The Last of US Part II"
+    altText: "The Last of US Part II sketch- Joe & Ellie",
+    caption: "The Last of US Part II- Joe & Ellie"
   },
   {
     src: "https://carbon-media.accelerator.net/0000000j9py/btUIexKXhePdrxEy73LHoJ;2048x1536.jpeg",
@@ -85,7 +90,7 @@ function CarouselSection() {
   };
   return (
     <>
-      <div className="section" id="artwork">
+      <div className="section section-tabs" id="artwork">
         <Container>
           <h2 className="title">Digital Art</h2>
           <Row className="justify-content-center">
