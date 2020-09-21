@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.36f1efd2.chunk.css",
-    "main.js": "/static/js/main.3d490d93.chunk.js",
-    "main.js.map": "/static/js/main.3d490d93.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1cf40c30.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1cf40c30.js.map",
-    "static/js/2.1148429d.chunk.js": "/static/js/2.1148429d.chunk.js",
-    "static/js/2.1148429d.chunk.js.map": "/static/js/2.1148429d.chunk.js.map",
+    "main.css": "/static/css/main.15d5a94a.chunk.css",
+    "main.js": "/static/js/main.a2686c9c.chunk.js",
+    "main.js.map": "/static/js/main.a2686c9c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d5439e4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d5439e4.js.map",
+    "static/js/2.9aeb66ab.chunk.js": "/static/js/2.9aeb66ab.chunk.js",
+    "static/js/2.9aeb66ab.chunk.js.map": "/static/js/2.9aeb66ab.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9780194717583888620734621e1dca9e.js": "/precache-manifest.9780194717583888620734621e1dca9e.js",
+    "precache-manifest.1df4c39353322001f605fd0778d9a5ee.js": "/precache-manifest.1df4c39353322001f605fd0778d9a5ee.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.36f1efd2.chunk.css.map": "/static/css/main.36f1efd2.chunk.css.map",
-    "static/js/2.1148429d.chunk.js.LICENSE.txt": "/static/js/2.1148429d.chunk.js.LICENSE.txt",
-    "static/media/WENQIU-Resume.pdf": "/static/media/WENQIU-Resume.2a50f42f.pdf",
+    "static/css/main.15d5a94a.chunk.css.map": "/static/css/main.15d5a94a.chunk.css.map",
+    "static/js/2.9aeb66ab.chunk.js.LICENSE.txt": "/static/js/2.9aeb66ab.chunk.js.LICENSE.txt",
+    "static/media/WENQIU-Resume.pdf": "/static/media/WENQIU-Resume.bba7fc89.pdf",
     "static/media/adapted-toy-inventory.png": "/static/media/adapted-toy-inventory.76839d22.png",
     "static/media/campus-map.png": "/static/media/campus-map.cadc4ab7.png",
     "static/media/css-lint.png": "/static/media/css-lint.1d4e7abc.png",
-    "static/media/homebg.jpg": "/static/media/homebg.f71bfc5f.jpg",
+    "static/media/homebg-min.jpg": "/static/media/homebg-min.3a4d2bdd.jpg",
     "static/media/kickstarter.png": "/static/media/kickstarter.3881d619.png",
     "static/media/linked-list-playground.png": "/static/media/linked-list-playground.58ae5b45.png",
     "static/media/now-ui-kit.css": "/static/media/nucleo-outline.8ebec31f.woff2",
@@ -27,9 +27,9 @@
     "static/media/wq-logo.png": "/static/media/wq-logo.5e882a69.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1cf40c30.js",
-    "static/js/2.1148429d.chunk.js",
-    "static/css/main.36f1efd2.chunk.css",
-    "static/js/main.3d490d93.chunk.js"
+    "static/js/runtime-main.8d5439e4.js",
+    "static/js/2.9aeb66ab.chunk.js",
+    "static/css/main.15d5a94a.chunk.css",
+    "static/js/main.a2686c9c.chunk.js"
   ]
 }
