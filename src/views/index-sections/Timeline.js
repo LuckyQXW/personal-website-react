@@ -19,6 +19,12 @@ const useStyles = makeStyles((theme) => ({
     secondaryTail: {
         backgroundColor: theme.palette.secondary.main,
     },
+    timeTitle: {
+        marginTop: '8px'
+    },
+    experienceTitle: {
+        fontSize: '16px'
+    }
 }));
 
 const content = [
@@ -120,9 +126,7 @@ export default function CustomizedTimeline() {
         return (
             <TimelineItem>
                 <TimelineOppositeContent>
-                    <Typography variant="h5">
-                        {item.time}
-                    </Typography>
+                    <h5 className={classes.timeTitle}>{item.time}</h5>
                 </TimelineOppositeContent>
                 <TimelineSeparator>
                     <TimelineDot variant="outlined" color={item.color}>
@@ -134,9 +138,7 @@ export default function CustomizedTimeline() {
                     <Paper elevation={3} className={classes.paper}>
                         {item.items.map((exp) => {
                             return (
-                                <Typography variant="h6" component="h1">
-                                    {exp.title}
-                                </Typography>
+                                <div className={classes.experienceTitle}>{exp.title}</div>
                             );
                         })}
                     </Paper>
