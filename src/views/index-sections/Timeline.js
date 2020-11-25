@@ -10,7 +10,6 @@ import TimelineDot from '@material-ui/lab/TimelineDot';
 import LaptopMacRoundedIcon from '@material-ui/icons/LaptopMacRounded';
 import SchoolRoundedIcon from '@material-ui/icons/SchoolRounded';
 import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
     paper: {
@@ -28,6 +27,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const content = [
+    {
+        time: "Fall 2020",
+        color: "primary",
+        items: [
+            {
+                title: "Undergraduate Research Assistant @ Make4All"
+            }
+        ]
+    },
     {
         time: "Summer 2020",
         color: "secondary",
