@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1b05640bdf8affc7fc326b56d3b710bd",
+    "revision": "e4939d6be29642416c118bcb49e7a011",
     "url": "/index.html"
   },
   {
-    "revision": "6eb89790c87c806c8ed4",
+    "revision": "c75ec5175718abdc1525",
     "url": "/static/css/main.15d5a94a.chunk.css"
   },
   {
-    "revision": "d484180f93fffbb3c9d3",
-    "url": "/static/js/2.39a49854.chunk.js"
+    "revision": "6e9202e935105f44efa5",
+    "url": "/static/js/2.ed4db236.chunk.js"
   },
   {
     "revision": "521e9b15d96e440449ad3234b04a34a9",
-    "url": "/static/js/2.39a49854.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.ed4db236.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6eb89790c87c806c8ed4",
-    "url": "/static/js/main.deaa3acc.chunk.js"
+    "revision": "c75ec5175718abdc1525",
+    "url": "/static/js/main.6287ce10.chunk.js"
   },
   {
     "revision": "2847d203240419117e3c",
     "url": "/static/js/runtime-main.8d5439e4.js"
   },
   {
-    "revision": "bba7fc89d0a84edbfef42ad31684a4c4",
-    "url": "/static/media/WENQIU-Resume.bba7fc89.pdf"
+    "revision": "48e9f016d4baf8d927348c2359900f45",
+    "url": "/static/media/WENQIU-Resume.48e9f016.pdf"
   },
   {
     "revision": "76839d22592cd333e14819fc2cb7c0aa",
