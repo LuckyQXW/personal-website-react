@@ -28,6 +28,18 @@ const useStyles = makeStyles((theme) => ({
 
 const content = [
     {
+        time: "Winter-Spring 2021",
+        color: "primary",
+        items: [
+            {
+                title: "CSE 163 Head Teaching Assistant"
+            },
+            {
+                title: "Undergraduate Research Assistant @ Make4All"
+            }
+        ]
+    },
+    {
         time: "Fall 2020",
         color: "primary",
         items: [

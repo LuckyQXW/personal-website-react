@@ -27,7 +27,7 @@ const items = [
     "Planned and led an one-hour section every week with a partner covering practice problems on lecture topics. " +
         "Edited, reviewed and gave feedback for pre-lecture readings. " +
         "Helped students with course concept and final project on data analysis during office hours.",
-    duration: "Winter 2020- Summer 2020"
+    duration: "Winter 2020- Summer 2020, Winter 2021- Spring 2021"
   },
   {
     id: "CSE 143 TA",

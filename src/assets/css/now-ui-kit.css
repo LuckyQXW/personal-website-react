@@ -1220,7 +1220,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   border-radius: 0.1875rem;
   padding: 11px 22px;
   cursor: pointer;
-  background-color: #888888;
+  background-color: #505050;
   color: #FFFFFF; }
   .btn:hover, .btn:focus, .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active, .btn:not(:disabled):not(.disabled):active:focus, .btn:not(:disabled):not(.disabled).active:focus, .btn:active:hover, .btn.active:hover,
   .show > .btn.dropdown-toggle,
@@ -1287,7 +1287,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     border-color: #888888; }
   .btn.btn-simple,
   .navbar .navbar-nav > a.btn.btn-simple {
-    color: #888888;
+    color: #505050;
     border-color: #888888; }
     .btn.btn-simple:hover, .btn.btn-simple:focus, .btn.btn-simple:not(:disabled):not(.disabled):active, .btn.btn-simple:not(:disabled):not(.disabled).active, .btn.btn-simple:not(:disabled):not(.disabled):active:focus, .btn.btn-simple:not(:disabled):not(.disabled).active:focus, .btn.btn-simple:active:hover, .btn.btn-simple.active:hover,
     .show > .btn.btn-simple.dropdown-toggle,
@@ -1313,7 +1313,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
       box-shadow: none; }
   .btn.btn-link,
   .navbar .navbar-nav > a.btn.btn-link {
-    color: #888888; }
+    color: #505050; }
     .btn.btn-link:hover, .btn.btn-link:focus, .btn.btn-link:not(:disabled):not(.disabled):active, .btn.btn-link:not(:disabled):not(.disabled).active, .btn.btn-link:not(:disabled):not(.disabled):active:focus, .btn.btn-link:not(:disabled):not(.disabled).active:focus, .btn.btn-link:active:hover, .btn.btn-link.active:hover,
     .show > .btn.btn-link.dropdown-toggle,
     .show > .btn.btn-link.dropdown-toggle:focus,
@@ -1753,7 +1753,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     box-shadow: none; }
 
 .btn-outline-default {
-  color: #888888;
+  color: #505050;
   border-color: #888888; }
   .btn-outline-default:hover, .btn-outline-default:focus, .btn-outline-default:not(:disabled):not(.disabled):active, .btn-outline-default:not(:disabled):not(.disabled).active, .btn-outline-default:not(:disabled):not(.disabled):active:focus, .btn-outline-default:not(:disabled):not(.disabled).active:focus, .btn-outline-default:active:hover, .btn-outline-default.active:hover,
   .show > .btn-outline-default.dropdown-toggle,
@@ -2557,7 +2557,7 @@ h6, .h6 {
 
 p {
   line-height: 1.61em;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2em; }
 
 .title {
@@ -3283,7 +3283,7 @@ Created using IcoMoon - icomoon.io
       padding: 5px 15px; }
   .navbar .navbar-nav .nav-link:not(.btn) {
     text-transform: uppercase;
-    font-size: 0.7142em;
+    font-size: 0.8em;
     padding: 0.5rem 0.7rem;
     line-height: 1.625rem; }
     .navbar .navbar-nav .nav-link:not(.btn) i.fab + p,
@@ -3320,7 +3320,7 @@ Created using IcoMoon - icomoon.io
     border: 1px solid transparent; }
   .navbar .navbar-brand {
     text-transform: uppercase;
-    font-size: 0.8571em;
+    font-size: 0.9em;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     line-height: 1.625rem; }
@@ -3346,19 +3346,19 @@ Created using IcoMoon - icomoon.io
     color: #FFFFFF;
     padding-top: 20px !important; }
   .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn) {
-    color: #888888; }
+    color: #505050; }
     .navbar.bg-white:not(.navbar-transparent) a:not(.dropdown-item):not(.btn).disabled {
       opacity: .5;
-      color: #888888; }
+      color: #505050; }
   .navbar.bg-white:not(.navbar-transparent) .button-bar {
-    background: #888888; }
+    background: #505050; }
   .navbar.bg-white:not(.navbar-transparent) .nav-item.active .nav-link:not(.btn),
   .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
   .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
   .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):active {
     background-color: rgba(222, 222, 222, 0.3); }
   .navbar.bg-white:not(.navbar-transparent) .logo-container {
-    border: 1px solid #888888; }
+    border: 1px solid #505050; }
 
 .bg-default {
   background-color: #888888 !important; }

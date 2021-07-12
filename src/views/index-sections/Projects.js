@@ -11,7 +11,10 @@ import WordMasterImg from  "../../assets/img/word-master.png";
 import CSSLintImg from "../../assets/img/css-lint.png";
 import KickstarterImg from "../../assets/img/kickstarter.png";
 import SynthesisImg from "../../assets/img/synthesis.png";
-import Website163Img from "../../assets/img/website-163.png"
+import Website163Img from "../../assets/img/website-163.png";
+import ShapeDefenseImg from "../../assets/img/shape-defense.png";
+import BreakItImg from "../../assets/img/break-it.png";
+
 
 function Projects() {
     return (
@@ -19,6 +22,33 @@ function Projects() {
             <div className="section" id="projects">
                 <Container>
                     <h2 className="title">Projects</h2>
+                    <Row>
+                        <ProjectBlock
+                            name={"Shape Defense Game"}
+                            link="https://luckyqxw.github.io/shape-defense/index.html"
+                            imageLink={ShapeDefenseImg}
+                            alt="Thumbnail for the Shape Defense Game"
+                            live={true}
+                            code={true}
+                            codeLink="https://github.com/LuckyQXW/cse154-linked-list-playground"
+                            description={"A interactive game that allows players to draw shapes with their mouse and " +
+                            "defeat enemies. Utilizes Web Serial to interface with Arduino connected with a OLED screen " +
+                            "a parallex 2-axis joystick, and a vibromotor. Integrated a custom-trained shape classifier " +
+                            "with ML5.js Library and styled interactive interface with P5.js Library."}
+                        />
+                        <ProjectBlock
+                            name={"Mini-BreakIt Game"}
+                            imageLink={BreakItImg}
+                            alt="Thumbnail for the mini break it game"
+                            live={false}
+                            code={true}
+                            codeLink="https://github.com/LuckyQXW/490f-playground/tree/main/BreakIt32"
+                            description={"A mini Break It! game built with ESP32 and OLED display. " +
+                            "Includes a basic mode controlling the paddle using a parallex 2-axis joystick, " +
+                            "and an advanced mode control using an accelerometer. " +
+                            "Also plays tones with a buzzer and adds powerup usage using a force sensor."}
+                        />
+                    </Row>
                     <Row>
                         <ProjectBlock
                             name={"CSE 163 Course Website"}
