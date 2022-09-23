@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "550ac28ad314b5f4ea9b197b9917672a",
+    "revision": "465920a75929c945ad46e1c9a0a8549d",
     "url": "/index.html"
   },
   {
-    "revision": "6566e08e43417d5db053",
-    "url": "/static/css/main.7c2e44ab.chunk.css"
+    "revision": "e88447edcecc526724a7",
+    "url": "/static/css/main.1e7ce2da.chunk.css"
   },
   {
     "revision": "dff4fbab6f041e2b6d5b",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.73dc488b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6566e08e43417d5db053",
-    "url": "/static/js/main.af22ecc8.chunk.js"
+    "revision": "e88447edcecc526724a7",
+    "url": "/static/js/main.e378e62d.chunk.js"
   },
   {
     "revision": "2847d203240419117e3c",
     "url": "/static/js/runtime-main.8d5439e4.js"
   },
   {
-    "revision": "48e9f016d4baf8d927348c2359900f45",
-    "url": "/static/media/WENQIU-Resume.48e9f016.pdf"
+    "revision": "e560233ed2be63406aa40822ef7d1dc0",
+    "url": "/static/media/WENQIU-Resume.e560233e.pdf"
   },
   {
     "revision": "0619a751ee8294fab7cc48d8ccce0ada",
