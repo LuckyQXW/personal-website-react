@@ -2,3 +2,11 @@ p {
   font-weight: 400;
   color: black;
 }
+
+.navbar .navbar-nav .nav-link:not(.btn) {
+  font-size: 1em;
+}
+
+.navbar .navbar-brand {
+  font-size: 1em;
+}

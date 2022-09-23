@@ -18,16 +18,37 @@ import TeachingTabContent from "./TeachingTabContent";
 // core components
 const items = [
   {
+    id: "CSE 163 Summer Instructor",
+    description: "Intermediate data programming. Topics include writing programs that manipulate different types of " +
+        "data; leveraging the growing ecosystem of tools and libraries for data programming; writing programs that " +
+        "are both efficient and elegant; and writing medium-scale programs (100 to 200 lines).",
+    responsibilities: "Led three class sessions each week guiding student through lecture reading practices in flipped classroom style. " +
+      "Managed a team of nine TAs and led staff meetings and head TA planning meetings. " +
+      "Developed optional small creative projects for students interested in exploring more content outside class assignments. ",
+    duration: "Summer 2022"
+  },
+  {
+    id: "CSE 160 TA",
+    description: "Introduction to computer programming. Assignments solve real data manipulation tasks from science, engineering, business, and the humanities. " +
+        "Concepts of computational thinking, problem-solving, data analysis, Python programming, control and data abstraction, file processing, and data visualization. " +
+        "Intended for students without prior programming experience.",
+    responsibilities: "Managed grading duties as the grading lead and ensure feedback quality and consistency, introduced minor improvements on the grading process. " +
+      "Developed autograder scripts on Gradescope for midterm and final exams. " +
+      "Planned and led an one-hour section every week covering practice problems on lecture topics. ",
+    duration: "Fall 2021"
+  },
+  {
     id: "CSE 163 TA",
     description: "Intermediate data programming. Topics include writing programs that manipulate different types of " +
         "data; leveraging the growing ecosystem of tools and libraries for data programming; writing programs that " +
         "are both efficient and elegant; and writing medium-scale programs (100 to 200 lines).",
     responsibilities: "Redesigned the course website for better usability and accessibility. " +
-    "As the grading head TA, managed grading duties, assigned grading tasks to TAs and ensured feedback quality and consistency. " +
-    "Planned and led an one-hour section every week with a partner covering practice problems on lecture topics. " +
-        "Edited, reviewed and gave feedback for pre-lecture readings. " +
-        "Helped students with course concept and final project on data analysis during office hours.",
-    duration: "Winter 2020- Summer 2020, Winter 2021- Spring 2021"
+      "As the grading head TA, managed grading duties, assigned grading tasks to TAs and ensured feedback quality and consistency. " +
+      "Contributed to the transition from traditional lecture to flipped classroom and mastery grading format. " +
+      "Planned and led an one-hour section every week with a partner covering practice problems on lecture topics. " +
+      "Edited, reviewed and gave feedback for pre-lecture readings. " +
+      "Helped students with course concept and final project on data analysis during office hours.",
+    duration: "Winter 2020- Summer 2020, Winter 2021- Spring 2021, Winter- Spring 2022"
   },
   {
     id: "CSE 143 TA",

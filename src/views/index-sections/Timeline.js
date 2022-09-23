@@ -28,6 +28,60 @@ const useStyles = makeStyles((theme) => ({
 
 const content = [
     {
+        time: "Fall 2022",
+        color: "primary",
+        items: [
+            {
+                title: "CSE 154 Teaching Assistant"
+            },
+        ]
+    },
+    {
+        time: "Summer 2022",
+        color: "primary",
+        items: [
+            {
+                title: "CSE 163 Summer Instructor"
+            },
+        ]
+    },
+    {
+        time: "Spring 2022",
+        color: "secondary",
+        items: [
+            {
+                title: "Software Engineering Intern @ Microsoft EDU"
+            },
+        ]
+    },
+    {
+        time: "Winter-Spring 2022",
+        color: "primary",
+        items: [
+            {
+                title: "CSE 163 Head Teaching Assistant"
+            },
+        ]
+    },
+    {
+        time: "Fall 2021",
+        color: "primary",
+        items: [
+            {
+                title: "CSE 160 Grading Lead Teaching Assistant"
+            },
+        ]
+    },
+    {
+        time: "Summer 2021",
+        color: "secondary",
+        items: [
+            {
+                title: "Software Engineering Intern @ Microsoft Azure"
+            },
+        ]
+    },
+    {
         time: "Winter-Spring 2021",
         color: "primary",
         items: [

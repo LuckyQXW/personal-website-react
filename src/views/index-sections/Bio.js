@@ -39,6 +39,7 @@ function Bio() {
                                     experiencing a sense of flow and sharpening my observation skills. You can check out most of my
                                     artwork and past design pieces in
                                     my <a href="https://wenqiu.carbonmade.com/" target="_blank" rel="noopener noreferrer">digital art portfolio</a>.
+                                    I also enjoy crocheting and creating my own sweaters and hats with colorful yarn 🧶.
                                 </p>
                             </div>
                         </Col>
